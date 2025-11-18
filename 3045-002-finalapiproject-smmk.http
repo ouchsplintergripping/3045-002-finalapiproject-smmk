@@ -1,0 +1,6 @@
+@_3045_002_finalapiproject_smmk_HostAddress = http://localhost:5147
+
+GET {{_3045_002_finalapiproject_smmk_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
