@@ -1,6 +1,0 @@
-@FinalProject_Member_Info_Table_HostAddress = http://localhost:5134
-
-GET {{FinalProject_Member_Info_Table_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

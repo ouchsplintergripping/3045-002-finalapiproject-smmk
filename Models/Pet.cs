@@ -1,7 +1,6 @@
-﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace _3045_002_finalapiproject_smmk.Models
+namespace _3045_002_FinalApiProject
 {
     public class Pet
     {
@@ -9,13 +8,15 @@ namespace _3045_002_finalapiproject_smmk.Models
         public int PetID { get; set; }
 
         [Required]
-        public string PetName { get; set; }
+        public required string PetName { get; set; }
 
         [Required]
-        public string Type { get; set; }
+        public required string Type { get; set; }
 
+        [Required]
         public int Age { get; set; }
 
-        public bool Adopted { get; set; }
+        [Required]
+        public bool Adopted { get; set; } = false;
     }
 }
