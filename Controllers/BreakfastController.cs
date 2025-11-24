@@ -1,5 +1,4 @@
-﻿using _3045_002_FinalApiProject.Models;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace _3045_002_FinalApiProject.Controllers

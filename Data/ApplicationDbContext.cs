@@ -1,3 +1,4 @@
+using _3045_002_FinalApiProject.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace _3045_002_FinalApiProject

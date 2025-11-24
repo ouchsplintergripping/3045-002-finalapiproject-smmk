@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace _3045_002_FinalApiProject
+namespace _3045_002_FinalApiProject.Models
 {
     public class Breakfast
     {
